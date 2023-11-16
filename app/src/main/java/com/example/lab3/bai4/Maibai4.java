@@ -45,7 +45,7 @@ public class Maibai4 extends AppCompatActivity {
     private void loadPhotos() {
         // Khởi tạo Retrofit
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.9.102/apiphoto.php") // Thay thế bằng URL API thực tế
+                .baseUrl("http://10.24.55.192/Thondph16247_data.json/") // Thay thế bằng URL API thực tế
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
